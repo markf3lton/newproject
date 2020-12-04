@@ -1,0 +1,4 @@
+name: newproject
+recipe: drupal8
+config:
+  webroot: docroot

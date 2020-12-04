@@ -26,6 +26,8 @@
         "drupal/core-recommended": "^9.1",
         "drupal/mysql56": "^1.1",
         "drupal/stage_file_proxy": "^1.1",
+        "drupal/token": "^1.7",
+        "drupal/webform": "6.0.0-beta2",
         "drush/drush": "^10.0"
     },
     "conflict": {

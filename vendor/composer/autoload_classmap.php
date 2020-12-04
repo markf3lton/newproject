@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Attribute' => $vendorDir . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
     'Drupal' => $baseDir . '/docroot/core/lib/Drupal.php',
+    'DrupalFinder\\DrupalFinder' => $vendorDir . '/webflo/drupal-finder/src/DrupalFinder.php',
     'Drupal\\Component\\DependencyInjection\\Container' => $baseDir . '/docroot/core/lib/Drupal/Component/DependencyInjection/Container.php',
     'Drupal\\Component\\DependencyInjection\\PhpArrayContainer' => $baseDir . '/docroot/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php',
     'Drupal\\Component\\FileCache\\FileCacheFactory' => $baseDir . '/docroot/core/lib/Drupal/Component/FileCache/FileCacheFactory.php',
