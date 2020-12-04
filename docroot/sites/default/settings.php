@@ -282,7 +282,7 @@ $databases = [];
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'QlUFoQ-x7fFF8OzFVEjaMqpLoooCmtrbp1DPQ91XhQePd1zU29HAZ9dcDeLE0xU0EieImfbTnw';
+$settings['hash_salt'] = 'B-uwjdwXzeK5g-gbv6XqP7jjCtIZ0OWRK0X50K5k9kMGuJyM8eYAXZg3owbtaNBephFl0RuAyA';
 
 /**
  * Deployment identifier.
@@ -776,9 +776,14 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
  * Keep this code block at the end of this file to take full effect.
  */
 #
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/s5fc92eab63a9c/s5fc92eab63a9c-settings.inc';
+}
+
+if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+  include $app_root . '/' . $site_path . '/settings.local.php';
+}
 
 # config via https://support.acquia.com/hc/en-us/articles/360055918354-How-to-create-a-site-using-the-latest-version-of-Drupal-and-Composer-
 
@@ -791,6 +796,6 @@ $databases['default']['default'] = array (
   'prefix' => '',
   'host' => 'database',
   'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'namespace' => 'Drupal\\Driver\\Database\\mysql',
   'driver' => 'mysql',
 );
