@@ -21,9 +21,11 @@
     "require": {
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
+        "drupal/acquia_purge": "^1.1",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/devel": "^4.0",
         "drupal/mysql56": "^1.1",
         "drupal/stage_file_proxy": "^1.1",
         "drupal/token": "^1.7",
