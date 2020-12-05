@@ -778,8 +778,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #
 
 if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/s5fc92eab63a9c/s5fc92eab63a9c-settings.inc';
+  require '/var/www/site-php/eemfelton/eemfelton-settings.inc';
 }
+
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
