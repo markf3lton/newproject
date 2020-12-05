@@ -1,0 +1,14 @@
+uuid: 086cdc19-f2dc-4056-9a5b-01fa7424ad59
+name: newproject
+mail: markfelton@fastmail.fm
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

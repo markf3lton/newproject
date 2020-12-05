@@ -790,13 +790,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 
 $settings["config_sync_directory"] = $app_root . '/../config/' . basename($site_path);
 
-$databases['default']['default'] = array (
-  'database' => 'drupal8',
-  'username' => 'drupal8',
-  'password' => 'drupal8',
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Driver\\Database\\mysql',
-  'driver' => 'mysql',
-);
