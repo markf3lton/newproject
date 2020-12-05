@@ -305,7 +305,7 @@ $settings['hash_salt'] = 'B-uwjdwXzeK5g-gbv6XqP7jjCtIZ0OWRK0X50K5k9kMGuJyM8eYAXZ
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
-$settings['update_free_access'] = FALSE;
+$settings['update_free_access'] = TRUE;
 
 /**
  * Fallback to HTTP for Update Manager.
@@ -778,8 +778,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #
 
 if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/s5fc92eab63a9c/s5fc92eab63a9c-settings.inc';
+  require '/var/www/site-php/eemfelton/eemfelton-settings.inc';
 }
+
 
 if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
@@ -789,13 +790,3 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 
 $settings["config_sync_directory"] = $app_root . '/../config/' . basename($site_path);
 
-$databases['default']['default'] = array (
-  'database' => 'drupal8',
-  'username' => 'drupal8',
-  'password' => 'drupal8',
-  'prefix' => '',
-  'host' => 'database',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Driver\\Database\\mysql',
-  'driver' => 'mysql',
-);
