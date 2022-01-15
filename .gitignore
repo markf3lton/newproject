@@ -15,7 +15,6 @@
 /.editorconfig
 /.editorconfig
 /.gitattributes
-local.settings.php
 local.drush.yml
 local.site.yml
 local.services.yml

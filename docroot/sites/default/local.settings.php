@@ -770,9 +770,16 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 
-if (file_exists('/var/www/site-php')) {
-  require '/var/www/site-php/eemfelton/eemfelton-settings.inc';
-}
+$databases['default']['default'] = array (
+  'database' => 'acquia',
+  'username' => 'acquia',
+  'password' => 'acquia',
+  'prefix' => '',
+  'host' => 'database',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
 
 
 # $settings['config_sync_directory'] = 'sites/default/files/config_-SUGvywTa68X0gtWRtXbh258IXiUgXCu6-s6sGosEy68N4KUjdac5nM4sHc0IL4wMapiStgxMw/sync';
