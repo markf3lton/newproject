@@ -21,6 +21,7 @@
         "drupal/search_api": "^1.22",
         "drupal/search_api_attachments": "^9.0",
         "drupal/search_api_solr": "^4.2",
+        "drupal/webform": "^6.1",
         "drush/drush": "^10.3"
     },
     "config": {
