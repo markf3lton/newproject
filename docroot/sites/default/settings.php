@@ -779,7 +779,8 @@ if (file_exists('/var/www/site-php')) {
 
 
 $settings['config_vcs_directory'] = '../config/default'
+$settings['config_sync_directory'] = '../config/default'
 
-$settings['config_sync_directory'] = $settings['config_vcs_directory'];
+
 
 
