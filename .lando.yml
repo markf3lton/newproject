@@ -1,0 +1,7 @@
+name: eemfelton
+recipe: acquia
+config:
+  acli_version: latest
+  ah_application_uuid: bcbd2511-8af1-475a-b783-52924e4f2f8c
+  ah_site_group: eemfelton
+  php: '7.4'

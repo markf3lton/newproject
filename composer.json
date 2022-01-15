@@ -20,10 +20,17 @@
         "drupal/core-recommended": "^9",
         "drupal/search_api": "^1.22",
         "drupal/search_api_attachments": "^9.0",
+        "drupal/search_api_solr": "^4.2",
         "drush/drush": "^10.3"
     },
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "acquia/blt": true
+        }
     },
     "extra": {
         "drupal-scaffold": {
