@@ -10,11 +10,10 @@
         }
     ],
     "require": {
-        "acquia/blt": "^12.0",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.6",
         "drupal/acquia_connector": "^3.0",
-        "drupal/acquia_search": "^3.0.0",
+        "drupal/acquia_search": "^3.0",
         "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
@@ -28,8 +27,7 @@
         "allow-plugins": {
             "composer/installers": true,
             "cweagans/composer-patches": true,
-            "drupal/core-composer-scaffold": true,
-            "acquia/blt": true
+            "drupal/core-composer-scaffold": true
         }
     },
     "extra": {
