@@ -3,7 +3,7 @@ project:
 
 git:
  default_branch: main
- remotes: eemfelton@svn-14671.prod.hosting.acquia.com:eemfelton.git
+ remotes: 'eemfelton@svn-14671.prod.hosting.acquia.com:eemfelton.git'
  hooks:
      commit-msg: false
      pattern: false
