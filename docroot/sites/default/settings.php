@@ -778,8 +778,8 @@ if (file_exists('/var/www/site-php')) {
 # $settings['config_sync_directory'] = 'sites/default/files/config_-SUGvywTa68X0gtWRtXbh258IXiUgXCu6-s6sGosEy68N4KUjdac5nM4sHc0IL4wMapiStgxMw/sync';
 
 
-$settings['config_vcs_directory'] = '../config/default'
-$settings['config_sync_directory'] = '../config/default'
+# $settings['config_vcs_directory'] = '../config/default'
+# $settings['config_sync_directory'] = '../config/default'
 
 
 
