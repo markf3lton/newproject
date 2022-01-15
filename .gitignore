@@ -7,6 +7,10 @@
 /docroot/sites/*/private
 /docroot/sites/simpletest
 
+# Stuff I changed -MarkF
+/docroot/sites/*/settings*.php
+local.settings.php
+
 # Directories specific to this template
 /docroot/libraries
 /docroot/modules/contrib
