@@ -19,6 +19,7 @@
         "drupal/admin_toolbar": "^3.0",
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-recommended": "^9",
+        "drupal/devel": "^4.1",
         "drupal/purge": "^3.2",
         "drupal/search_api": "^1.22",
         "drupal/search_api_attachments": "^9.0",
