@@ -166,6 +166,7 @@ $databases['default']['default'] = array (
 
 # $settings['config_sync_directory'] = 'sites/default/files/config_-SUGvywTa68X0gtWRtXbh258IXiUgXCu6-s6sGosEy68N4KUjdac5nM4sHc0IL4wMapiStgxMw/sync';
 
+# hello world
 
 $settings['config_vcs_directory'] = '../config/default'
 
