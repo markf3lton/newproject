@@ -9,7 +9,7 @@
 
 # Stuff I changed -MarkF
 /docroot/sites/*/settings*.php
-local.settings.php
+#local.settings.php
 
 # Directories specific to this template
 /docroot/libraries
