@@ -1,13 +1,13 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => 'e4aa724e8289a5671e43ebce836f0b9e2b90609e',
         'name' => 'acquia/drupal-minimal-project',
-        'dev' => false,
+        'dev' => true,
     ),
     'versions' => array(
         'acquia/blt' => array(
@@ -29,12 +29,12 @@
             'dev_requirement' => false,
         ),
         'acquia/drupal-minimal-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => 'e4aa724e8289a5671e43ebce836f0b9e2b90609e',
             'dev_requirement' => false,
         ),
         'asm89/stack-cors' => array(
@@ -1319,8 +1319,8 @@
         'psr/http-factory-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0',
-                1 => '^1.0',
+                0 => '^1.0',
+                1 => '1.0',
             ),
         ),
         'psr/http-message' => array(

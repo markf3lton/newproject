@@ -8463,6 +8463,6 @@
             "install-path": "../zumba/amplitude-php"
         }
     ],
-    "dev": false,
+    "dev": true,
     "dev-package-names": []
 }
